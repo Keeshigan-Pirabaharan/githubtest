@@ -1,10 +1,8 @@
 #
 # Example file for working with functions
 #
-
 # define a basic function
 from typing import MutableMapping
-
 
 def func1():
     print("I am a function")
@@ -12,7 +10,7 @@ def func1():
 # function that takes arguments
 def func2(arg1, arg2):
     print(arg1, arg2)
-
+  
 # function that returns a value
 def cube(x):
     return x*x*x
@@ -30,6 +28,7 @@ def multi_add(*args):
     for x in args:
         result = result + x
     return result
+    
 
 # func1() # 1st Line
 # print(func1()) # 2nd and 3rd line, print statement inside func1 prints out "I am a function" and return value is none
